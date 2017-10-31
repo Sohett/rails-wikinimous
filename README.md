@@ -5,13 +5,13 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version : the last version
 
-* System dependencies
+* System dependencies: NONE, it's a standalone app
 
-* Configuration
+* Configuration: I have no idea
 
-* Database creation
+* Database creation: JSON
 
 * Database initialization
 
