@@ -1,0 +1,11 @@
+<h1>You can create a new artcile here</h1>
+
+<%= form_for(@article) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
+  <%= f.label :context %>
+  <%= f.text_field :context %>
+
+  <%= f.submit %>
+<% end %>

@@ -1,0 +1,7 @@
+<h1 style="text-align:center;"><%= @article.title %> </h1>
+
+<p style="text-align:center"><%= @article.context %> </p>
+<%= link_to "delete",article_path(@article), method: :delete  %>
+<%= link_to "edit", edit_article_path(@article) %>
+<hr>
+<%= link_to "HOME", articles_path %>
